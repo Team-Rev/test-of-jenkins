@@ -16,4 +16,9 @@ public class LoginController {
     public String logout(){
         return "bye";
     }
+
+    @GetMapping("/jenkins")
+    public String jenkins(){
+        return "hello jenkins";
+    }
 }
