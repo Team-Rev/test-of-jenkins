@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsController {
 
-    @GetMapping("/Welcome")
+    @GetMapping("/Hello")
     public String welcome() {
         Jenkins jenkins = Jenkins.builder()
                 .name("eunsil")
                 .build();
 
-        return "Welcome " + jenkins.getName() + "!";
+        return "Hello " + jenkins.getName() + "!";
     }
 }
