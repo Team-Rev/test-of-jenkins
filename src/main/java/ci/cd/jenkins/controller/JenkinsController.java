@@ -13,6 +13,6 @@ public class JenkinsController {
                 .name("eunsil")
                 .build();
 
-        return "Hello " + jenkins.getName() + "!";
+        return "Hello " + jenkins.getName() + "!!";
     }
 }
